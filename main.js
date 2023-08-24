@@ -116,8 +116,7 @@ function createEnemy() {
     let e = new Enemy();
     e.init();
     let scoreVal = score*5
-    sec = Math.min(150, sec - scoreVal);
-
+    sec = sec - scoreVal;
   }, sec)
 };
 
